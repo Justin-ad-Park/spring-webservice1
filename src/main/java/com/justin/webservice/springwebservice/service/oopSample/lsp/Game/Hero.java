@@ -11,7 +11,7 @@ public class Hero {
     }
 
     public void attack(EnemyCharacter otherCharacter) {
-        weapon.attach(otherCharacter);
+        weapon.attack(otherCharacter);
     }
 
     public void getWeapon(Weapon newWeapon) {

@@ -10,16 +10,16 @@ public abstract class Weapon implements IWeapon {
     }
 
     @Override
-    public void attach(EnemyCharacter otherCharacter) {
+    public void attack(EnemyCharacter otherCharacter) {
         // 공격 상황를 보여준다.
-        showAttachStatus(otherCharacter.name);
+        showAttackStatus(otherCharacter.name);
 
         // 적의 HP를 깍는다.
         damage(otherCharacter);
     }
 
     @Override
-    public void showAttachStatus(String targetName) {
+    public void showAttackStatus(String targetName) {
         System.out.println(name + "(으)로 " + targetName + "(을)를 공격했다.");
     }
 

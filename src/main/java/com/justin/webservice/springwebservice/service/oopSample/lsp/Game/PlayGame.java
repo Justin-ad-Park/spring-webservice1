@@ -1,6 +1,6 @@
 package com.justin.webservice.springwebservice.service.oopSample.lsp.Game;
 
-public class GamePlay {
+public class PlayGame {
 
     public static void main(String[] args)
     {

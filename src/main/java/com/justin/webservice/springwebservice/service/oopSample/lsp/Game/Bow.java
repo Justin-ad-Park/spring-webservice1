@@ -1,7 +1,8 @@
 package com.justin.webservice.springwebservice.service.oopSample.lsp.Game;
 
 public class Bow extends Weapon {
-    public Bow() {
+    public Bow()
+    {
         super("나무활", 1);
     }
 
@@ -10,7 +11,7 @@ public class Bow extends Weapon {
     }
 
     @Override
-    public void showAttachStatus(String targetName) {
+    public void showAttackStatus(String targetName) {
         System.out.println(name + "(으)로 " + targetName + "(을)를 쐈다.");
     }
 }
